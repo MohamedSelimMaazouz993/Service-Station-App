@@ -7,7 +7,7 @@ import { useMap } from "react-leaflet";
 const LeafletRoutingMachine = () => {
   const map = useMap();
   let DefaultIcon = L.icon({
-    iconUrl: "/marche.gif",
+    iconUrl: "/sonic.gif",
     iconSize: [90, 90],
   });
   useEffect(() => {
