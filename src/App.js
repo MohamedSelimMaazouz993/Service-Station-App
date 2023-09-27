@@ -16,7 +16,7 @@ function App() {
           url='https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png'
         />
         <LeafletGeocoder /> 
-        {/*<LeafletRoutingMachine />*/}
+        <LeafletRoutingMachine />
       </MapContainer>
     </div>
   );
